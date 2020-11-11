@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link  rel="stylesheet" href="materialize.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h3>Celcius to Farenheit</h3>
+        <label>Celcius</label>
+        <input type="number" id="celcius">
+        <button onclick="c_to_f ()">convert</button>
+        <br><br>
+        <label>Farenheit</label>
+        <input type="number" id="to_farenheit">
+    </div>
+    <br><br>
+    <div class="container">
+        <h3>Farenheit to Celcius</h3>
+        <label>Farenheit</label>
+        <input type="number" id="farenheit">
+        <button onclick="f_to_c ()">convert</button>
+        <br><br>
+        <label>Celcius</label>
+        <input type="number" id="to_celcius">
+    </div>
+    
+    <script src="script.js"></script>  
+</body>
+</html>
